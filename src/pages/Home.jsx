@@ -4,7 +4,7 @@ import About from '../components/landingpage/About'
 import ContentBlock from '../components/landingpage/ContentBlock'
 import Hero from '../components/landingpage/Hero'
 import NewBlogs from '../components/landingpage/NewBlogs'
-import Navbar from '../components/navbar'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
