@@ -31,7 +31,7 @@ const Blogs = () => {
                   src={blog.jetpack_featured_media_url}
                   alt="art cover"
                   loading="lazy"
-                  className="w-1/2 h-full object-cover rounded-lg transition duration-500 group-hover:rounded-xl"
+                  className="md:w-1/2 md:h-full object-cover rounded-lg transition duration-500 group-hover:rounded-xl"
                 />
                 <div className=" pl-0 p-5">
                   <div className="space-y-2 flex flex-col justify-between">
@@ -39,7 +39,7 @@ const Blogs = () => {
                       <h4 className="text-2xl font-semibold text-cyan-900">
                         Provident de illo eveniet commodi fuga fugiat laboriosam
                         expedita.
-                      </h4>
+                      </h4> 
                       <span
                         className="text-gray-400 dark:text-gray-300 font-light "
                         dangerouslySetInnerHTML={{

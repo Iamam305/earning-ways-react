@@ -32,7 +32,7 @@ const NewBlogs = () => {
                   src={blog.jetpack_featured_media_url}
                   alt="art cover"
                   loading="lazy"
-                  className="w-1/2 h-full object-cover rounded-lg transition duration-500 group-hover:rounded-xl"
+                  className="md:w-1/2 md:h-full object-cover rounded-lg transition duration-500 group-hover:rounded-xl"
                 />
                 <div className=" pl-0 p-5">
                   <div className="space-y-2 h-full flex flex-col justify-between">
